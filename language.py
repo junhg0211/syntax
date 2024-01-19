@@ -148,6 +148,7 @@ class Language:
                         string_content += content
 
                         rule.append((VALUE_STRING, string_content))
+                        string_content = ''
                         continue
 
                     stringing = True
